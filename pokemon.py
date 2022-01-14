@@ -136,17 +136,17 @@ class Pokemon:
 
 if __name__ == '__main__':
 
-    Dracaufeu = Pokemon('Dracaufeu', 'Feu', ['Flamethrower', 'Fly', 'Blast Burn', 'Fire Punch'], {'ATTACK':12, 'DEFENSE': 8})
-    Tortank = Pokemon('Tortank', 'Eau', ['Water Gun', 'Bubblebeam', 'Hydro Pump', 'Surf'],{'ATTACK': 10, 'DEFENSE':10})
-    Florizarre = Pokemon('Florizarre', 'Plante', ['Vine Wip', 'Razor Leaf', 'Earthquake', 'Frenzy Plant'],{'ATTACK':8, 'DEFENSE':12})
+    Dracaufeu = Pokemon('Dracaufeu', 'Feu', ['Lance flamme', 'Vol', 'Flameche', 'Poing de feu'], {'ATTACK':12, 'DEFENSE': 8})
+    Tortank = Pokemon('Tortank', 'Eau', ['Pistolet à eau', 'Bulle deau', 'Canon a eau', 'Surf'],{'ATTACK': 10, 'DEFENSE':10})
+    Florizarre = Pokemon('Florizarre', 'Plante', ['Fouet lianne', 'feuille herbe', 'Seisme', 'Lance soleil'],{'ATTACK':8, 'DEFENSE':12})
 
-    Salameche = Pokemon('Salameche', 'Feu', ['Ember', 'Scratch', 'Tackle', 'Fire Punch'],{'ATTACK':4, 'DEFENSE':2})
-    carapuce = Pokemon('carapuce', 'Eau', ['Bubblebeam', 'Tackle', 'Headbutt', 'Surf'],{'ATTACK': 3, 'DEFENSE':3})
-    bulbizarre = Pokemon('bulbizarre', 'Plante', ['Vine Wip', 'Razor Leaf', 'Tackle', 'Leech Seed'],{'ATTACK':2, 'DEFENSE':4})
+    Salameche = Pokemon('Salameche', 'Feu', ['flamche', 'Griffe', 'coup de queu', 'Poing de feu'],{'ATTACK':4, 'DEFENSE':2})
+    carapuce = Pokemon('carapuce', 'Eau', ['Bulle deau', 'Belier', 'coup de tete', 'Surf'],{'ATTACK': 3, 'DEFENSE':3})
+    bulbizarre = Pokemon('bulbizarre', 'Plante', ['Charge', 'Tranche herbe', 'fouet lianne', 'Vampigraine'],{'ATTACK':2, 'DEFENSE':4})
 
-    Reptincelle = Pokemon('Reptincelle', 'Feu', ['Ember', 'Scratch', 'Flamethrower', 'Fire Punch'],{'ATTACK':6, 'DEFENSE':5})
-    Carabaffe = Pokemon('Carabaffe', 'Eau', ['Bubblebeam', 'Water Gun', 'Headbutt', 'Surf'],{'ATTACK': 5, 'DEFENSE':5})
-    Herbizarre = Pokemon('Herbizarre', 'Plante', ['Vine Wip', 'Razor Leaf', 'Bullet Seed', 'Leech Seed'],{'ATTACK':4, 'DEFENSE':6})
+    Reptincelle = Pokemon('Reptincelle', 'Feu', ['flameche', 'Griffe', 'lance flamme', 'Poing de feu'],{'ATTACK':6, 'DEFENSE':5})
+    Carabaffe = Pokemon('Carabaffe', 'Eau', ['bulle deau', 'pistolet a eau', 'Coup de tete', 'Surf'],{'ATTACK': 5, 'DEFENSE':5})
+    Herbizarre = Pokemon('Herbizarre', 'Plante', ['Tranche herbe', 'Fouet lianne', 'vampigraine', 'charge'],{'ATTACK':4, 'DEFENSE':6})
 
 
-    Dracaufeu.fight(Tortank)
+    Reptincelle.fight(Carabaffe)
